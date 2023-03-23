@@ -6,7 +6,7 @@ class Elemento:
 
     def __eq__(self, other):
         n1 = self.nombre
-        n2 = otro.nombre
+        n2 = other.nombre
         return n1 == n2
 
 class Conjunto:
