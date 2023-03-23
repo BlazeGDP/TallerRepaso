@@ -5,9 +5,9 @@ class Elemento:
     nombre: str
 
     def __eq__(self, other):
-        if isinstance(other, Elemento):
-            return self.nombre == other.nombre
-        return False
+        n1 = self.nombre
+        n2 = otro.nombre
+        return n1 == n2
 
 class Conjunto:
     contador = 0
